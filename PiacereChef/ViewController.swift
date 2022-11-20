@@ -11,6 +11,7 @@ import AppCenterCrashes
 class ViewController: UIViewController {
 
     @IBAction func buttonAction(_ sender: Any) {
+        // Test change
         Crashes.generateTestCrash()
     }
     override func viewDidLoad() {
