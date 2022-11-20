@@ -6,9 +6,13 @@
 //
 
 import UIKit
+import AppCenterCrashes
 
 class ViewController: UIViewController {
 
+    @IBAction func buttonAction(_ sender: Any) {
+        Crashes.generateTestCrash()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
