@@ -1,0 +1,1212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B585EDB2928929E0009BCA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EDA2928929E0009BCA0 /* AppDelegate.swift */; };
+		8B585EDD2928929E0009BCA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EDC2928929E0009BCA0 /* SceneDelegate.swift */; };
+		8B585EDF2928929E0009BCA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EDE2928929E0009BCA0 /* ViewController.swift */; };
+		8B585EE22928929E0009BCA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B585EE02928929E0009BCA0 /* Main.storyboard */; };
+		8B585EE4292892A00009BCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B585EE3292892A00009BCA0 /* Assets.xcassets */; };
+		8B585EE7292892A00009BCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B585EE5292892A00009BCA0 /* LaunchScreen.storyboard */; };
+		8B585EF2292892A00009BCA0 /* PiacereChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EF1292892A00009BCA0 /* PiacereChefTests.swift */; };
+		8B585EFC292892A00009BCA0 /* PiacereChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EFB292892A00009BCA0 /* PiacereChefUITests.swift */; };
+		8B585EFE292892A00009BCA0 /* PiacereChefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EFD292892A00009BCA0 /* PiacereChefUITestsLaunchTests.swift */; };
+		8B585F1E2928F2EC0009BCA0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585F1D2928F2EC0009BCA0 /* Configuration.swift */; };
+		8B585F28292922D30009BCA0 /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8B585F27292922D30009BCA0 /* AppCenterAnalytics */; };
+		8B585F2A292922D30009BCA0 /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 8B585F29292922D30009BCA0 /* AppCenterCrashes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B585EEE292892A00009BCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B585ECF2928929E0009BCA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B585ED62928929E0009BCA0;
+			remoteInfo = PiacereChef;
+		};
+		8B585EF8292892A00009BCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B585ECF2928929E0009BCA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B585ED62928929E0009BCA0;
+			remoteInfo = PiacereChef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B585ED72928929E0009BCA0 /* PiacereChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiacereChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B585EDA2928929E0009BCA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B585EDC2928929E0009BCA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B585EDE2928929E0009BCA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B585EE12928929E0009BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B585EE3292892A00009BCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B585EE6292892A00009BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B585EE8292892A00009BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B585EED292892A00009BCA0 /* PiacereChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiacereChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B585EF1292892A00009BCA0 /* PiacereChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiacereChefTests.swift; sourceTree = "<group>"; };
+		8B585EF7292892A00009BCA0 /* PiacereChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiacereChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B585EFB292892A00009BCA0 /* PiacereChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiacereChefUITests.swift; sourceTree = "<group>"; };
+		8B585EFD292892A00009BCA0 /* PiacereChefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiacereChefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B585F1A2928F1960009BCA0 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		8B585F1C2928F24B0009BCA0 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		8B585F1D2928F2EC0009BCA0 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		8B585F1F2928F91E0009BCA0 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		8B585F22292915BB0009BCA0 /* PRPersistence */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PRPersistence; sourceTree = "<group>"; };
+		8B585F23292916160009BCA0 /* PRDomainModels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PRDomainModels; sourceTree = "<group>"; };
+		8B585F24292916310009BCA0 /* PRPersistenceInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PRPersistenceInterface; sourceTree = "<group>"; };
+		8B585F252929193C0009BCA0 /* PRCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PRCore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B585ED42928929E0009BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B585F28292922D30009BCA0 /* AppCenterAnalytics in Frameworks */,
+				8B585F2A292922D30009BCA0 /* AppCenterCrashes in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B585EEA292892A00009BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B585EF4292892A00009BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B585ECE2928929E0009BCA0 = {
+			isa = PBXGroup;
+			children = (
+				8B585F252929193C0009BCA0 /* PRCore */,
+				8B585F24292916310009BCA0 /* PRPersistenceInterface */,
+				8B585F23292916160009BCA0 /* PRDomainModels */,
+				8B585F22292915BB0009BCA0 /* PRPersistence */,
+				8B585ED92928929E0009BCA0 /* PiacereChef */,
+				8B585EF0292892A00009BCA0 /* PiacereChefTests */,
+				8B585EFA292892A00009BCA0 /* PiacereChefUITests */,
+				8B585ED82928929E0009BCA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B585ED82928929E0009BCA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B585ED72928929E0009BCA0 /* PiacereChef.app */,
+				8B585EED292892A00009BCA0 /* PiacereChefTests.xctest */,
+				8B585EF7292892A00009BCA0 /* PiacereChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B585ED92928929E0009BCA0 /* PiacereChef */ = {
+			isa = PBXGroup;
+			children = (
+				8B585EDA2928929E0009BCA0 /* AppDelegate.swift */,
+				8B585EDC2928929E0009BCA0 /* SceneDelegate.swift */,
+				8B585EDE2928929E0009BCA0 /* ViewController.swift */,
+				8B585EE02928929E0009BCA0 /* Main.storyboard */,
+				8B585EE3292892A00009BCA0 /* Assets.xcassets */,
+				8B585EE5292892A00009BCA0 /* LaunchScreen.storyboard */,
+				8B585EE8292892A00009BCA0 /* Info.plist */,
+				8B585F1A2928F1960009BCA0 /* Development.xcconfig */,
+				8B585F1C2928F24B0009BCA0 /* Production.xcconfig */,
+				8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */,
+				8B585F1F2928F91E0009BCA0 /* Base.xcconfig */,
+				8B585F1D2928F2EC0009BCA0 /* Configuration.swift */,
+			);
+			path = PiacereChef;
+			sourceTree = "<group>";
+		};
+		8B585EF0292892A00009BCA0 /* PiacereChefTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B585EF1292892A00009BCA0 /* PiacereChefTests.swift */,
+			);
+			path = PiacereChefTests;
+			sourceTree = "<group>";
+		};
+		8B585EFA292892A00009BCA0 /* PiacereChefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B585EFB292892A00009BCA0 /* PiacereChefUITests.swift */,
+				8B585EFD292892A00009BCA0 /* PiacereChefUITestsLaunchTests.swift */,
+			);
+			path = PiacereChefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B585ED62928929E0009BCA0 /* PiacereChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B585F01292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChef" */;
+			buildPhases = (
+				8B585ED32928929E0009BCA0 /* Sources */,
+				8B585ED42928929E0009BCA0 /* Frameworks */,
+				8B585ED52928929E0009BCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiacereChef;
+			packageProductDependencies = (
+				8B585F27292922D30009BCA0 /* AppCenterAnalytics */,
+				8B585F29292922D30009BCA0 /* AppCenterCrashes */,
+			);
+			productName = PiacereChef;
+			productReference = 8B585ED72928929E0009BCA0 /* PiacereChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B585EEC292892A00009BCA0 /* PiacereChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B585F04292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChefTests" */;
+			buildPhases = (
+				8B585EE9292892A00009BCA0 /* Sources */,
+				8B585EEA292892A00009BCA0 /* Frameworks */,
+				8B585EEB292892A00009BCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B585EEF292892A00009BCA0 /* PBXTargetDependency */,
+			);
+			name = PiacereChefTests;
+			productName = PiacereChefTests;
+			productReference = 8B585EED292892A00009BCA0 /* PiacereChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B585EF6292892A00009BCA0 /* PiacereChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B585F07292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChefUITests" */;
+			buildPhases = (
+				8B585EF3292892A00009BCA0 /* Sources */,
+				8B585EF4292892A00009BCA0 /* Frameworks */,
+				8B585EF5292892A00009BCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B585EF9292892A00009BCA0 /* PBXTargetDependency */,
+			);
+			name = PiacereChefUITests;
+			productName = PiacereChefUITests;
+			productReference = 8B585EF7292892A00009BCA0 /* PiacereChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B585ECF2928929E0009BCA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8B585ED62928929E0009BCA0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					8B585EEC292892A00009BCA0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8B585ED62928929E0009BCA0;
+					};
+					8B585EF6292892A00009BCA0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8B585ED62928929E0009BCA0;
+					};
+				};
+			};
+			buildConfigurationList = 8B585ED22928929E0009BCA0 /* Build configuration list for PBXProject "PiacereChef" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B585ECE2928929E0009BCA0;
+			packageReferences = (
+				8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
+			);
+			productRefGroup = 8B585ED82928929E0009BCA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B585ED62928929E0009BCA0 /* PiacereChef */,
+				8B585EEC292892A00009BCA0 /* PiacereChefTests */,
+				8B585EF6292892A00009BCA0 /* PiacereChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B585ED52928929E0009BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B585EE7292892A00009BCA0 /* LaunchScreen.storyboard in Resources */,
+				8B585EE4292892A00009BCA0 /* Assets.xcassets in Resources */,
+				8B585EE22928929E0009BCA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B585EEB292892A00009BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B585EF5292892A00009BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B585ED32928929E0009BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B585EDF2928929E0009BCA0 /* ViewController.swift in Sources */,
+				8B585EDB2928929E0009BCA0 /* AppDelegate.swift in Sources */,
+				8B585F1E2928F2EC0009BCA0 /* Configuration.swift in Sources */,
+				8B585EDD2928929E0009BCA0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B585EE9292892A00009BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B585EF2292892A00009BCA0 /* PiacereChefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B585EF3292892A00009BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B585EFE292892A00009BCA0 /* PiacereChefUITestsLaunchTests.swift in Sources */,
+				8B585EFC292892A00009BCA0 /* PiacereChefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B585EEF292892A00009BCA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B585ED62928929E0009BCA0 /* PiacereChef */;
+			targetProxy = 8B585EEE292892A00009BCA0 /* PBXContainerItemProxy */;
+		};
+		8B585EF9292892A00009BCA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B585ED62928929E0009BCA0 /* PiacereChef */;
+			targetProxy = 8B585EF8292892A00009BCA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B585EE02928929E0009BCA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B585EE12928929E0009BCA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B585EE5292892A00009BCA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B585EE6292892A00009BCA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B585EFF292892A00009BCA0 /* Dev Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Dev Debug";
+		};
+		8B585F00292892A00009BCA0 /* Prod Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod Release";
+		};
+		8B585F02292892A00009BCA0 /* Dev Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiacereChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChef.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Dev Debug";
+		};
+		8B585F03292892A00009BCA0 /* Prod Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiacereChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Prod Release";
+		};
+		8B585F05292892A00009BCA0 /* Dev Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
+			};
+			name = "Dev Debug";
+		};
+		8B585F06292892A00009BCA0 /* Prod Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
+			};
+			name = "Prod Release";
+		};
+		8B585F08292892A00009BCA0 /* Dev Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiacereChef;
+			};
+			name = "Dev Debug";
+		};
+		8B585F09292892A00009BCA0 /* Prod Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiacereChef;
+			};
+			name = "Prod Release";
+		};
+		8B585F0A292899B40009BCA0 /* Dev Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Dev Release";
+		};
+		8B585F0B292899B40009BCA0 /* Dev Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiacereChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChef.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Dev Release";
+		};
+		8B585F0C292899B40009BCA0 /* Dev Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
+			};
+			name = "Dev Release";
+		};
+		8B585F0D292899B40009BCA0 /* Dev Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiacereChef;
+			};
+			name = "Dev Release";
+		};
+		8B585F0E292899CA0009BCA0 /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Staging Debug";
+		};
+		8B585F0F292899CA0009BCA0 /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiacereChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChef.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Staging Debug";
+		};
+		8B585F10292899CA0009BCA0 /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
+			};
+			name = "Staging Debug";
+		};
+		8B585F11292899CA0009BCA0 /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiacereChef;
+			};
+			name = "Staging Debug";
+		};
+		8B585F12292899DB0009BCA0 /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Staging Release";
+		};
+		8B585F13292899DB0009BCA0 /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiacereChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChef.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Staging Release";
+		};
+		8B585F14292899DB0009BCA0 /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
+			};
+			name = "Staging Release";
+		};
+		8B585F15292899DB0009BCA0 /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiacereChef;
+			};
+			name = "Staging Release";
+		};
+		8B585F16292899F60009BCA0 /* Prod Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Prod Debug";
+		};
+		8B585F17292899F60009BCA0 /* Prod Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiacereChef/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Prod Debug";
+		};
+		8B585F18292899F60009BCA0 /* Prod Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
+			};
+			name = "Prod Debug";
+		};
+		8B585F19292899F60009BCA0 /* Prod Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y3748E7BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.mariorv.PiacereChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiacereChef;
+			};
+			name = "Prod Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B585ED22928929E0009BCA0 /* Build configuration list for PBXProject "PiacereChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B585EFF292892A00009BCA0 /* Dev Debug */,
+				8B585F16292899F60009BCA0 /* Prod Debug */,
+				8B585F0E292899CA0009BCA0 /* Staging Debug */,
+				8B585F00292892A00009BCA0 /* Prod Release */,
+				8B585F12292899DB0009BCA0 /* Staging Release */,
+				8B585F0A292899B40009BCA0 /* Dev Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Prod Release";
+		};
+		8B585F01292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B585F02292892A00009BCA0 /* Dev Debug */,
+				8B585F17292899F60009BCA0 /* Prod Debug */,
+				8B585F0F292899CA0009BCA0 /* Staging Debug */,
+				8B585F03292892A00009BCA0 /* Prod Release */,
+				8B585F13292899DB0009BCA0 /* Staging Release */,
+				8B585F0B292899B40009BCA0 /* Dev Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Prod Release";
+		};
+		8B585F04292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B585F05292892A00009BCA0 /* Dev Debug */,
+				8B585F18292899F60009BCA0 /* Prod Debug */,
+				8B585F10292899CA0009BCA0 /* Staging Debug */,
+				8B585F06292892A00009BCA0 /* Prod Release */,
+				8B585F14292899DB0009BCA0 /* Staging Release */,
+				8B585F0C292899B40009BCA0 /* Dev Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Prod Release";
+		};
+		8B585F07292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B585F08292892A00009BCA0 /* Dev Debug */,
+				8B585F19292899F60009BCA0 /* Prod Debug */,
+				8B585F11292899CA0009BCA0 /* Staging Debug */,
+				8B585F09292892A00009BCA0 /* Prod Release */,
+				8B585F15292899DB0009BCA0 /* Staging Release */,
+				8B585F0D292899B40009BCA0 /* Dev Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Prod Release";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B585F27292922D30009BCA0 /* AppCenterAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterAnalytics;
+		};
+		8B585F29292922D30009BCA0 /* AppCenterCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterCrashes;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8B585ECF2928929E0009BCA0 /* Project object */;
+}
