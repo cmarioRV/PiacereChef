@@ -23,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Prod Release"
+      buildConfiguration = "Prod_Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -78,10 +78,20 @@
                ReferencedContainer = "container:PRPersistenceInterface">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "PRCoreTests"
+               BuildableName = "PRCoreTests"
+               BlueprintName = "PRCoreTests"
+               ReferencedContainer = "container:PRCore">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Prod Release"
+      buildConfiguration = "Prod_Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -102,7 +112,7 @@
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Prod Release"
+      buildConfiguration = "Prod_Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -119,10 +129,10 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Prod Release">
+      buildConfiguration = "Prod_Release">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Prod Release"
+      buildConfiguration = "Prod_Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

@@ -18,6 +18,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgL-oU-2VY">
                                 <rect key="frame" x="136.66666666666666" y="421" width="119.99999999999997" height="35"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonId"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="i8e-1s-AVJ"/>
                                 </constraints>
@@ -27,14 +28,26 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tOq-QB-v3b"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FT-yk-e4h">
+                                <rect key="frame" x="196.66666666666666" y="399" width="0.0" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration" identifier="labelId"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="PgL-oU-2VY" firstAttribute="top" secondItem="8FT-yk-e4h" secondAttribute="bottom" constant="22" id="P46-82-yVA"/>
                             <constraint firstItem="PgL-oU-2VY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="QmC-jD-Gua"/>
+                            <constraint firstItem="8FT-yk-e4h" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="S7Z-0M-hxn"/>
                             <constraint firstItem="PgL-oU-2VY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mhn-OD-zaq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="8FT-yk-e4h" id="Omt-Ig-4Sp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

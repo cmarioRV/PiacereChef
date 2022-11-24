@@ -6,17 +6,22 @@
 //
 
 import UIKit
+import Swinject
 import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
+import PRPersistence
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let defaultContainer = Container()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let assemblies: [Assembly] = [PersistenceModule(assembly: nil).moduleAssembly]
+        let assembler = Assembler(assemblies, container: defaultContainer)
         
         AppCenter.start(withAppSecret: "7d587f32-2ef2-404c-8b7f-7ca98e1b08e9", services:[
           Analytics.self,
