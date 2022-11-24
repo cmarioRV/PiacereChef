@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0A33AE292F288800003A76 /* PRPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = 8B0A33AD292F288800003A76 /* PRPersistence */; };
+		8B0A33B0292F7F6300003A76 /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8B0A33AF292F7F6300003A76 /* AppCenterAnalytics */; };
+		8B0A33B2292F7F6B00003A76 /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 8B0A33B1292F7F6B00003A76 /* AppCenterCrashes */; };
 		8B585EDB2928929E0009BCA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EDA2928929E0009BCA0 /* AppDelegate.swift */; };
 		8B585EDD2928929E0009BCA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EDC2928929E0009BCA0 /* SceneDelegate.swift */; };
 		8B585EDF2928929E0009BCA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585EDE2928929E0009BCA0 /* ViewController.swift */; };
@@ -69,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B585F28292922D30009BCA0 /* AppCenterAnalytics in Frameworks */,
+				8B0A33AE292F288800003A76 /* PRPersistence in Frameworks */,
 				8B585F2A292922D30009BCA0 /* AppCenterCrashes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0A33B0292F7F6300003A76 /* AppCenterAnalytics in Frameworks */,
+				8B0A33B2292F7F6B00003A76 /* AppCenterCrashes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +96,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0A33AC292F288800003A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B585ECE2928929E0009BCA0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +114,7 @@
 				8B585EF0292892A00009BCA0 /* PiacereChefTests */,
 				8B585EFA292892A00009BCA0 /* PiacereChefUITests */,
 				8B585ED82928929E0009BCA0 /* Products */,
+				8B0A33AC292F288800003A76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +183,7 @@
 			packageProductDependencies = (
 				8B585F27292922D30009BCA0 /* AppCenterAnalytics */,
 				8B585F29292922D30009BCA0 /* AppCenterCrashes */,
+				8B0A33AD292F288800003A76 /* PRPersistence */,
 			);
 			productName = PiacereChef;
 			productReference = 8B585ED72928929E0009BCA0 /* PiacereChef.app */;
@@ -188,6 +203,10 @@
 				8B585EEF292892A00009BCA0 /* PBXTargetDependency */,
 			);
 			name = PiacereChefTests;
+			packageProductDependencies = (
+				8B0A33AF292F7F6300003A76 /* AppCenterAnalytics */,
+				8B0A33B1292F7F6B00003A76 /* AppCenterCrashes */,
+			);
 			productName = PiacereChefTests;
 			productReference = 8B585EED292892A00009BCA0 /* PiacereChefTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -1196,6 +1215,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8B0A33AD292F288800003A76 /* PRPersistence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PRPersistence;
+		};
+		8B0A33AF292F7F6300003A76 /* AppCenterAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterAnalytics;
+		};
+		8B0A33B1292F7F6B00003A76 /* AppCenterCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterCrashes;
+		};
 		8B585F27292922D30009BCA0 /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;

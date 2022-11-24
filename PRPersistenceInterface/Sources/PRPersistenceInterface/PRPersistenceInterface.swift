@@ -1,6 +1,7 @@
-public struct PRPersistenceInterface {
-    public private(set) var text = "Hello, World!"
+import PRDomainModels
+import PRCore
 
-    public init() {
-    }
+public protocol PersistenceModuleInterface: Module {
+    func getUserSession() -> UserSession?
+    func saveUserSession(_ userSession: UserSession)
 }

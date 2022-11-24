@@ -23,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Prod Release"
+      buildConfiguration = "Prod Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -76,6 +76,16 @@
                BuildableName = "PRPersistenceInterfaceTests"
                BlueprintName = "PRPersistenceInterfaceTests"
                ReferencedContainer = "container:PRPersistenceInterface">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "PRCoreTests"
+               BuildableName = "PRCoreTests"
+               BlueprintName = "PRCoreTests"
+               ReferencedContainer = "container:PRCore">
             </BuildableReference>
          </TestableReference>
       </Testables>
