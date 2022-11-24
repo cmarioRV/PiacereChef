@@ -9,10 +9,10 @@ import UIKit
 import AppCenterCrashes
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var label: UILabel!
     @IBAction func buttonAction(_ sender: Any) {
-        // Test change
-        Crashes.generateTestCrash()
+        label.text = "Button tapped!"
+        //Crashes.generateTestCrash()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
