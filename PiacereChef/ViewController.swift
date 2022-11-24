@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBAction func buttonAction(_ sender: Any) {
         label.text = "Button tapped!"
         //Crashes.generateTestCrash()
+        // Some change
     }
     override func viewDidLoad() {
         super.viewDidLoad()
