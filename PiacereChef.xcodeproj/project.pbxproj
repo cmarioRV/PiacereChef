@@ -22,6 +22,9 @@
 		8B585F1E2928F2EC0009BCA0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585F1D2928F2EC0009BCA0 /* Configuration.swift */; };
 		8B585F28292922D30009BCA0 /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8B585F27292922D30009BCA0 /* AppCenterAnalytics */; };
 		8B585F2A292922D30009BCA0 /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 8B585F29292922D30009BCA0 /* AppCenterCrashes */; };
+		8B998B77292FB5FF00561DD7 /* PRCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8B998B76292FB5FF00561DD7 /* PRCore */; };
+		8B998B79292FB60400561DD7 /* PRDomainModels in Frameworks */ = {isa = PBXBuildFile; productRef = 8B998B78292FB60400561DD7 /* PRDomainModels */; };
+		8B998B7B292FB60A00561DD7 /* PRPersistenceInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 8B998B7A292FB60A00561DD7 /* PRPersistenceInterface */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B998B7B292FB60A00561DD7 /* PRPersistenceInterface in Frameworks */,
 				8B585F28292922D30009BCA0 /* AppCenterAnalytics in Frameworks */,
+				8B998B77292FB5FF00561DD7 /* PRCore in Frameworks */,
 				8B0A33AE292F288800003A76 /* PRPersistence in Frameworks */,
+				8B998B79292FB60400561DD7 /* PRDomainModels in Frameworks */,
 				8B585F2A292922D30009BCA0 /* AppCenterCrashes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +190,9 @@
 				8B585F27292922D30009BCA0 /* AppCenterAnalytics */,
 				8B585F29292922D30009BCA0 /* AppCenterCrashes */,
 				8B0A33AD292F288800003A76 /* PRPersistence */,
+				8B998B76292FB5FF00561DD7 /* PRCore */,
+				8B998B78292FB60400561DD7 /* PRDomainModels */,
+				8B998B7A292FB60A00561DD7 /* PRPersistenceInterface */,
 			);
 			productName = PiacereChef;
 			productReference = 8B585ED72928929E0009BCA0 /* PiacereChef.app */;
@@ -366,7 +375,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8B585EFF292892A00009BCA0 /* Dev Debug */ = {
+		8B585EFF292892A00009BCA0 /* Dev_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
 			buildSettings = {
@@ -426,9 +435,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = "Dev Debug";
+			name = Dev_Debug;
 		};
-		8B585F00292892A00009BCA0 /* Prod Release */ = {
+		8B585F00292892A00009BCA0 /* Prod_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
 			buildSettings = {
@@ -482,9 +491,9 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Prod Release";
+			name = Prod_Release;
 		};
-		8B585F02292892A00009BCA0 /* Dev Debug */ = {
+		8B585F02292892A00009BCA0 /* Dev_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
 			buildSettings = {
@@ -517,9 +526,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = "Dev Debug";
+			name = Dev_Debug;
 		};
-		8B585F03292892A00009BCA0 /* Prod Release */ = {
+		8B585F03292892A00009BCA0 /* Prod_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
 			buildSettings = {
@@ -551,9 +560,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = "Prod Release";
+			name = Prod_Release;
 		};
-		8B585F05292892A00009BCA0 /* Dev Debug */ = {
+		8B585F05292892A00009BCA0 /* Dev_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
 			buildSettings = {
@@ -576,9 +585,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
 			};
-			name = "Dev Debug";
+			name = Dev_Debug;
 		};
-		8B585F06292892A00009BCA0 /* Prod Release */ = {
+		8B585F06292892A00009BCA0 /* Prod_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
 			buildSettings = {
@@ -600,9 +609,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
 			};
-			name = "Prod Release";
+			name = Prod_Release;
 		};
-		8B585F08292892A00009BCA0 /* Dev Debug */ = {
+		8B585F08292892A00009BCA0 /* Dev_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
 			buildSettings = {
@@ -622,9 +631,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = PiacereChef;
 			};
-			name = "Dev Debug";
+			name = Dev_Debug;
 		};
-		8B585F09292892A00009BCA0 /* Prod Release */ = {
+		8B585F09292892A00009BCA0 /* Prod_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
 			buildSettings = {
@@ -644,9 +653,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = PiacereChef;
 			};
-			name = "Prod Release";
+			name = Prod_Release;
 		};
-		8B585F0A292899B40009BCA0 /* Dev Release */ = {
+		8B585F0A292899B40009BCA0 /* Dev_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
 			buildSettings = {
@@ -700,9 +709,9 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Dev Release";
+			name = Dev_Release;
 		};
-		8B585F0B292899B40009BCA0 /* Dev Release */ = {
+		8B585F0B292899B40009BCA0 /* Dev_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
 			buildSettings = {
@@ -734,9 +743,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = "Dev Release";
+			name = Dev_Release;
 		};
-		8B585F0C292899B40009BCA0 /* Dev Release */ = {
+		8B585F0C292899B40009BCA0 /* Dev_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
 			buildSettings = {
@@ -758,9 +767,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
 			};
-			name = "Dev Release";
+			name = Dev_Release;
 		};
-		8B585F0D292899B40009BCA0 /* Dev Release */ = {
+		8B585F0D292899B40009BCA0 /* Dev_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1A2928F1960009BCA0 /* Development.xcconfig */;
 			buildSettings = {
@@ -780,9 +789,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = PiacereChef;
 			};
-			name = "Dev Release";
+			name = Dev_Release;
 		};
-		8B585F0E292899CA0009BCA0 /* Staging Debug */ = {
+		8B585F0E292899CA0009BCA0 /* Staging_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
 			buildSettings = {
@@ -842,9 +851,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = "Staging Debug";
+			name = Staging_Debug;
 		};
-		8B585F0F292899CA0009BCA0 /* Staging Debug */ = {
+		8B585F0F292899CA0009BCA0 /* Staging_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
 			buildSettings = {
@@ -877,9 +886,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = "Staging Debug";
+			name = Staging_Debug;
 		};
-		8B585F10292899CA0009BCA0 /* Staging Debug */ = {
+		8B585F10292899CA0009BCA0 /* Staging_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
 			buildSettings = {
@@ -902,9 +911,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
 			};
-			name = "Staging Debug";
+			name = Staging_Debug;
 		};
-		8B585F11292899CA0009BCA0 /* Staging Debug */ = {
+		8B585F11292899CA0009BCA0 /* Staging_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
 			buildSettings = {
@@ -924,9 +933,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = PiacereChef;
 			};
-			name = "Staging Debug";
+			name = Staging_Debug;
 		};
-		8B585F12292899DB0009BCA0 /* Staging Release */ = {
+		8B585F12292899DB0009BCA0 /* Staging_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
 			buildSettings = {
@@ -980,9 +989,9 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Staging Release";
+			name = Staging_Release;
 		};
-		8B585F13292899DB0009BCA0 /* Staging Release */ = {
+		8B585F13292899DB0009BCA0 /* Staging_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
 			buildSettings = {
@@ -1014,9 +1023,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = "Staging Release";
+			name = Staging_Release;
 		};
-		8B585F14292899DB0009BCA0 /* Staging Release */ = {
+		8B585F14292899DB0009BCA0 /* Staging_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
 			buildSettings = {
@@ -1038,9 +1047,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
 			};
-			name = "Staging Release";
+			name = Staging_Release;
 		};
-		8B585F15292899DB0009BCA0 /* Staging Release */ = {
+		8B585F15292899DB0009BCA0 /* Staging_Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1B2928F1DA0009BCA0 /* Staging.xcconfig */;
 			buildSettings = {
@@ -1060,9 +1069,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = PiacereChef;
 			};
-			name = "Staging Release";
+			name = Staging_Release;
 		};
-		8B585F16292899F60009BCA0 /* Prod Debug */ = {
+		8B585F16292899F60009BCA0 /* Prod_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1F2928F91E0009BCA0 /* Base.xcconfig */;
 			buildSettings = {
@@ -1122,9 +1131,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = "Prod Debug";
+			name = Prod_Debug;
 		};
-		8B585F17292899F60009BCA0 /* Prod Debug */ = {
+		8B585F17292899F60009BCA0 /* Prod_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
 			buildSettings = {
@@ -1157,9 +1166,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = "Prod Debug";
+			name = Prod_Debug;
 		};
-		8B585F18292899F60009BCA0 /* Prod Debug */ = {
+		8B585F18292899F60009BCA0 /* Prod_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
 			buildSettings = {
@@ -1182,9 +1191,9 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiacereChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiacereChef";
 			};
-			name = "Prod Debug";
+			name = Prod_Debug;
 		};
-		8B585F19292899F60009BCA0 /* Prod Debug */ = {
+		8B585F19292899F60009BCA0 /* Prod_Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B585F1C2928F24B0009BCA0 /* Production.xcconfig */;
 			buildSettings = {
@@ -1204,7 +1213,7 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = PiacereChef;
 			};
-			name = "Prod Debug";
+			name = Prod_Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1212,54 +1221,54 @@
 		8B585ED22928929E0009BCA0 /* Build configuration list for PBXProject "PiacereChef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B585EFF292892A00009BCA0 /* Dev Debug */,
-				8B585F16292899F60009BCA0 /* Prod Debug */,
-				8B585F0E292899CA0009BCA0 /* Staging Debug */,
-				8B585F00292892A00009BCA0 /* Prod Release */,
-				8B585F12292899DB0009BCA0 /* Staging Release */,
-				8B585F0A292899B40009BCA0 /* Dev Release */,
+				8B585EFF292892A00009BCA0 /* Dev_Debug */,
+				8B585F16292899F60009BCA0 /* Prod_Debug */,
+				8B585F0E292899CA0009BCA0 /* Staging_Debug */,
+				8B585F00292892A00009BCA0 /* Prod_Release */,
+				8B585F12292899DB0009BCA0 /* Staging_Release */,
+				8B585F0A292899B40009BCA0 /* Dev_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Prod Release";
+			defaultConfigurationName = Prod_Release;
 		};
 		8B585F01292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B585F02292892A00009BCA0 /* Dev Debug */,
-				8B585F17292899F60009BCA0 /* Prod Debug */,
-				8B585F0F292899CA0009BCA0 /* Staging Debug */,
-				8B585F03292892A00009BCA0 /* Prod Release */,
-				8B585F13292899DB0009BCA0 /* Staging Release */,
-				8B585F0B292899B40009BCA0 /* Dev Release */,
+				8B585F02292892A00009BCA0 /* Dev_Debug */,
+				8B585F17292899F60009BCA0 /* Prod_Debug */,
+				8B585F0F292899CA0009BCA0 /* Staging_Debug */,
+				8B585F03292892A00009BCA0 /* Prod_Release */,
+				8B585F13292899DB0009BCA0 /* Staging_Release */,
+				8B585F0B292899B40009BCA0 /* Dev_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Prod Release";
+			defaultConfigurationName = Prod_Release;
 		};
 		8B585F04292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChefTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B585F05292892A00009BCA0 /* Dev Debug */,
-				8B585F18292899F60009BCA0 /* Prod Debug */,
-				8B585F10292899CA0009BCA0 /* Staging Debug */,
-				8B585F06292892A00009BCA0 /* Prod Release */,
-				8B585F14292899DB0009BCA0 /* Staging Release */,
-				8B585F0C292899B40009BCA0 /* Dev Release */,
+				8B585F05292892A00009BCA0 /* Dev_Debug */,
+				8B585F18292899F60009BCA0 /* Prod_Debug */,
+				8B585F10292899CA0009BCA0 /* Staging_Debug */,
+				8B585F06292892A00009BCA0 /* Prod_Release */,
+				8B585F14292899DB0009BCA0 /* Staging_Release */,
+				8B585F0C292899B40009BCA0 /* Dev_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Prod Release";
+			defaultConfigurationName = Prod_Release;
 		};
 		8B585F07292892A00009BCA0 /* Build configuration list for PBXNativeTarget "PiacereChefUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B585F08292892A00009BCA0 /* Dev Debug */,
-				8B585F19292899F60009BCA0 /* Prod Debug */,
-				8B585F11292899CA0009BCA0 /* Staging Debug */,
-				8B585F09292892A00009BCA0 /* Prod Release */,
-				8B585F15292899DB0009BCA0 /* Staging Release */,
-				8B585F0D292899B40009BCA0 /* Dev Release */,
+				8B585F08292892A00009BCA0 /* Dev_Debug */,
+				8B585F19292899F60009BCA0 /* Prod_Debug */,
+				8B585F11292899CA0009BCA0 /* Staging_Debug */,
+				8B585F09292892A00009BCA0 /* Prod_Release */,
+				8B585F15292899DB0009BCA0 /* Staging_Release */,
+				8B585F0D292899B40009BCA0 /* Dev_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Prod Release";
+			defaultConfigurationName = Prod_Release;
 		};
 /* End XCConfigurationList section */
 
@@ -1298,6 +1307,18 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8B585F26292922D30009BCA0 /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterCrashes;
+		};
+		8B998B76292FB5FF00561DD7 /* PRCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PRCore;
+		};
+		8B998B78292FB60400561DD7 /* PRDomainModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PRDomainModels;
+		};
+		8B998B7A292FB60A00561DD7 /* PRPersistenceInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PRPersistenceInterface;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
