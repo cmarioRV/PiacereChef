@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Show eligible build destinations for Earendil
+      run: xcodebuild -showdestinations -scheme AllTests
     - uses: maxim-lobanov/setup-xcode@v1.5.1
       with:
         xcode-version: '>11'
