@@ -21,4 +21,4 @@ jobs:
       run: xcodebuild -showdestinations -scheme AllTests
     - name: Build and Test
       #run: xcodebuild test -scheme AllTests -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
-      run: xcodebuild test -scheme AllTests -destination 'platform=iOS Simulator,OS=latest,name=Any iOS Simulator Device'
+      run: xcodebuild test -scheme AllTests -destination 'platform=iOS,OS=latest,name=Any iOS Device'
