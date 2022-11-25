@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: maxim-lobanov/setup-xcode@v1.5.1
       with:
-        xcode-version: '14.1'
+        xcode-version: 'latest'
     - name: Show eligible build destinations for AllTests
       run: xcodebuild -showdestinations -scheme AllTests
     - name: Build and Test
