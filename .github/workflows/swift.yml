@@ -22,4 +22,4 @@ jobs:
     #- name: Run tests
       #run: swift test -v
     - name: Build and Test
-      run: xcodebuild test -scheme PRDomainModels -destination 'platform=iOS Simulator, id=60CA5A9F-61A0-46FC-AF90-75C709A83686, OS=15.2, name=iPhone 12 Pro Max'
+      run: xcodebuild test -scheme PRDomainModels -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 12 Pro Max'
