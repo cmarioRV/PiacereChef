@@ -11,7 +11,7 @@ on:
     branches: [ "dev" ]
 
 jobs:
-  build PRCore:
+  build_PRCore:
     name: Build and Test PRCore
     runs-on: macos-latest
 
@@ -23,7 +23,7 @@ jobs:
     - name: Test PRCore
       run: xcodebuild test -scheme PRCore -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
   
-  build PRDomainModels:
+  build_PRDomainModels:
     name: Build and Test PRDomainModels
     runs-on: macos-latest
 
