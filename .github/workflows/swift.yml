@@ -5,7 +5,7 @@ name: Swift
 
 on:
   pull_request:
-    branches: [ "feature/**" ]
+    branches: [ "dev" ]
 
 jobs:
   build:
