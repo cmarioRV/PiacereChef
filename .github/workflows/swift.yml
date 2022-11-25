@@ -34,3 +34,15 @@ jobs:
         xcode-version: 'latest'
     - name: Test PRDomainModels
       run: xcodebuild test -scheme PRDomainModels -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+
+  build_PRPersistence:
+    name: Build and Test PRPersistence
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: maxim-lobanov/setup-xcode@v1.5.1
+      with:
+        xcode-version: 'latest'
+    - name: Test PRPersistence
+      run: xcodebuild test -scheme PRPersistence -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'

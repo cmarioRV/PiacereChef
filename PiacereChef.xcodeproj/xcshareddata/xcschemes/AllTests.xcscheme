@@ -48,46 +48,6 @@
                ReferencedContainer = "container:PiacereChef.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PRDomainModelsTests"
-               BuildableName = "PRDomainModelsTests"
-               BlueprintName = "PRDomainModelsTests"
-               ReferencedContainer = "container:PRDomainModels">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PRPersistenceTests"
-               BuildableName = "PRPersistenceTests"
-               BlueprintName = "PRPersistenceTests"
-               ReferencedContainer = "container:PRPersistence">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PRPersistenceInterfaceTests"
-               BuildableName = "PRPersistenceInterfaceTests"
-               BlueprintName = "PRPersistenceInterfaceTests"
-               ReferencedContainer = "container:PRPersistenceInterface">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PRCoreTests"
-               BuildableName = "PRCoreTests"
-               BlueprintName = "PRCoreTests"
-               ReferencedContainer = "container:PRCore">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
