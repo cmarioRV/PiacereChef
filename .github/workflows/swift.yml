@@ -4,9 +4,9 @@
 name: Swift
 
 on:
-  push:
-    branches:
-    - 'feature/**'
+  #push:
+    #branches:
+    #- 'feature/**'
   pull_request:
     branches: [ "dev" ]
 
