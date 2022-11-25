@@ -8,7 +8,7 @@ on:
     branches:
     - 'feature/**'
   pull_request:
-    branches: [ "feature/**" ]
+    branches: [ "dev" ]
 
 jobs:
   build:
@@ -22,4 +22,4 @@ jobs:
     #- name: Run tests
       #run: swift test -v
     - name: Build and Test
-      run: xcodebuild test -scheme PRDomainModels -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 12 Pro Max'
+      run: xcodebuild test -scheme PRPersistence -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 12 Pro Max'
