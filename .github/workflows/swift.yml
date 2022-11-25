@@ -53,8 +53,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: maxim-lobanov/setup-xcode@v1.5.1
-      with:
-        xcode-version: 'latest'
-    - name: Test PiacereChef
-      run: xcodebuild test -scheme AllTests -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+      - name: Build
+        run: swift build
+      - name: Run tests
+        run: swift test
