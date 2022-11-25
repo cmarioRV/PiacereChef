@@ -46,3 +46,15 @@ jobs:
         xcode-version: 'latest'
     - name: Test PRPersistence
       run: xcodebuild test -scheme PRPersistence -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+
+    build_PiacereChef:
+    name: Build and Test PiacereChef
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: maxim-lobanov/setup-xcode@v1.5.1
+      with:
+        xcode-version: 'latest'
+    - name: Test PiacereChef
+      run: xcodebuild test -scheme AllTests -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
