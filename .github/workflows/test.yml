@@ -20,4 +20,5 @@ jobs:
       with:
         xcode-version: '>11'
     - name: Build and Test
-      run: xcodebuild test -scheme AllTests -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+      #run: xcodebuild test -scheme AllTests -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+      run: xcodebuild test -scheme AllTests -destination 'platform=iOS Simulator, id=dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name=Any iOS Simulator Device'
