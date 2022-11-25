@@ -47,7 +47,7 @@ jobs:
     - name: Test PRPersistence
       run: xcodebuild test -scheme PRPersistence -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
 
-    build_PiacereChef:
+  build_PiacereChef:
     name: Build and Test PiacereChef
     runs-on: macos-latest
 
