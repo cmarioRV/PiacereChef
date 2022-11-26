@@ -11,41 +11,41 @@ on:
     branches: [ "dev" ]
 
 jobs:
-  build_PRCore:
-    name: Build and Test PRCore
-    runs-on: macos-latest
-
-    steps:
-    - uses: actions/checkout@v3
-    - uses: maxim-lobanov/setup-xcode@v1.5.1
-      with:
-        xcode-version: 'latest'
-    - name: Test PRCore
-      run: xcodebuild test -scheme PRCore -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
-  
-  build_PRDomainModels:
-    name: Build and Test PRDomainModels
-    runs-on: macos-latest
-
-    steps:
-    - uses: actions/checkout@v3
-    - uses: maxim-lobanov/setup-xcode@v1.5.1
-      with:
-        xcode-version: 'latest'
-    - name: Test PRDomainModels
-      run: xcodebuild test -scheme PRDomainModels -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
-
-  build_PRPersistence:
-    name: Build and Test PRPersistence
-    runs-on: macos-latest
-
-    steps:
-    - uses: actions/checkout@v3
-    - uses: maxim-lobanov/setup-xcode@v1.5.1
-      with:
-        xcode-version: 'latest'
-    - name: Test PRPersistence
-      run: xcodebuild test -scheme PRPersistence -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+  #build_PRCore:
+  #  name: Build and Test PRCore
+  #  runs-on: macos-latest
+#
+  #  steps:
+  #  - uses: actions/checkout@v3
+  #  - uses: maxim-lobanov/setup-xcode@v1.5.1
+  #    with:
+  #      xcode-version: 'latest'
+  #  - name: Test PRCore
+  #    run: xcodebuild test -scheme PRCore -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+  #
+  #build_PRDomainModels:
+  #  name: Build and Test PRDomainModels
+  #  runs-on: macos-latest
+#
+  #  steps:
+  #  - uses: actions/checkout@v3
+  #  - uses: maxim-lobanov/setup-xcode@v1.5.1
+  #    with:
+  #      xcode-version: 'latest'
+  #  - name: Test PRDomainModels
+  #    run: xcodebuild test -scheme PRDomainModels -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
+#
+  #build_PRPersistence:
+  #  name: Build and Test PRPersistence
+  #  runs-on: macos-latest
+#
+  #  steps:
+  #  - uses: actions/checkout@v3
+  #  - uses: maxim-lobanov/setup-xcode@v1.5.1
+  #    with:
+  #      xcode-version: 'latest'
+  #  - name: Test PRPersistence
+  #    run: xcodebuild test -scheme PRPersistence -destination 'platform=iOS Simulator,OS=latest,name=iPhone 11 Pro Max'
 
   build_PiacereChef:
     name: Build and Test PiacereChef
